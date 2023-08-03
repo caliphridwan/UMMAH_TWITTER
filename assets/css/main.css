@@ -1522,6 +1522,7 @@ input, select, textarea {
 		box-shadow: inset 0px -1px 0px 0px #51575a;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 	}
+	
 
 		#header > .container {
 			position: relative;
@@ -1738,6 +1739,29 @@ input, select, textarea {
 				font-size: 1em;
 				line-height: 1rem;
 				/* margin-top: 5rem; */
+			}
+			#ch{
+				display:none;
+			}
+
+			#ch:checked ~ ul.quote-list .content {
+				display:block;
+			}
+			#ch:checked ~ label{
+				display:none;
+			}
+			label{
+				display:inline-block;
+				cursor:pointer;
+				color:white;
+				background-color:rgb(165, 30, 30);
+				padding: 3px 13px;
+				border-radius: 3px;
+				margin-top:3px;
+			}
+
+			.content{
+				display:none;
 			}
 
 			.quote-list li {
@@ -2026,7 +2050,7 @@ input, select, textarea {
 				line-height: 1.25em;
 				padding-right: 1em;
 				margin: 0 0 1em 0;
-				color:darkblue;
+				color:rgb(15, 165, 224);
 				z-index: 2;
 				animation-name: ummah;
 				  animation-duration: 8s;
@@ -2038,7 +2062,7 @@ input, select, textarea {
 			@keyframes ummah {
 				0%   {color: white;}
 				25%  {color: darksalmon;}
-				50%  {color:white;}
+				50%  {color:rgb(15, 165, 224);}
 				/* 75% {color:darkslateblue;} */
 				100% {color: darkslateblue;}
 			  }
