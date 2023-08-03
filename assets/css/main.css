@@ -1450,8 +1450,7 @@ input, select, textarea {
 		.feature-image img {
 			display: block;
 			width: 90%;
-			/* border-radius:0%; */
-			/* border-left: 10px solid blue; */
+			margin: 0 1rem;
 		}
 
 	.bordered-feature-image {
@@ -1470,6 +1469,13 @@ input, select, textarea {
 			width: 100%;
 			/* height: 10rem; */
 		}
+		section p{
+			text-align:justify;
+		}
+		/* .cen{
+			text-align: center;
+			font-size: .5rem;
+		} */
 
 	.button-large {
 		background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
@@ -1604,7 +1610,8 @@ input, select, textarea {
 		  }
 		#banner p:first-child{
 			font-weight: 900;
-			font-size: 2.1rem;
+			font-size: 1.8rem;
+			text-align: center;
 		}
 
 /* Features */
@@ -1678,6 +1685,7 @@ input, select, textarea {
 
 		#content .check-list li {
 			border-bottom: solid 1px #e2e6e8;
+			line-height: 2rem;
 		}
 
 /* Footer */
@@ -2028,9 +2036,7 @@ input, select, textarea {
 				padding: 0.75em 0 0.75em 0;
 			}
 
-			.quote-list li p {
-				/* margin-bottom: 0.5em; */
-			}
+			
 
 			.check-list li {
 				font-size: 1em;
@@ -2060,15 +2066,15 @@ input, select, textarea {
 	}
 			
 			@keyframes ummah {
-				0%   {color: white;}
-				25%  {color: darksalmon;}
+				0%   {color: rgb(211, 199, 199);}
+				25%  {color: rgb(168, 63, 27);}
 				50%  {color:rgb(15, 165, 224);}
 				/* 75% {color:darkslateblue;} */
-				100% {color: darkslateblue;}
+				100% {color: rgb(69, 57, 150);}
 			  }
 			#banner p:first-child{
 				font-weight: 900;
-				font-size: 2.1rem;
+				font-size: 1.7rem;
 			}
 
 			/* #banner p:nth-child(3){
